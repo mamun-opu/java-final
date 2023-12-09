@@ -7,6 +7,6 @@ public class Main {
                         new Number(5)
                 )
         );
-
+        System.out.println(equation.evaluate());
     }
 }
