@@ -8,6 +8,6 @@ public class Main {
                 )
         );
         System.out.println("Equation: " + equation.toString());
-        System.out.println(equation.evaluate());
+        System.out.println("result: " + equation.evaluate());
     }
 }
