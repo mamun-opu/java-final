@@ -10,4 +10,9 @@ public class Binary extends ArithmeticExp{
     public int evaluate() {
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
 }

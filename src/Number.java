@@ -9,4 +9,9 @@ class Number extends ArithmeticExp {
     public int evaluate() {
         return num;
     }
+
+    @Override
+    public String toString() {
+        return Integer.toString(num);
+    }
 }
