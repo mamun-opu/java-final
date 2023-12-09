@@ -4,6 +4,8 @@ class Number extends ArithmeticExp {
     public Number(int num) {
         this.num = num;
     }
+
+    @Override
     public int evaluate() {
         return num;
     }
