@@ -3,4 +3,8 @@ public class Sum extends Binary{
         super(left, right);
     }
 
+    @Override
+    public int evaluate() {
+        return left.evaluate() + right.evaluate();
+    }
 }
