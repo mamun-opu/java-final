@@ -8,8 +8,8 @@ public class Main {
                 )
         );
 
-        ArithmeticExp moEquation = new Modulo(new Number(15),
-                new Number(4));
+        ArithmeticExp moEquation = new Modulo(new Number(21),
+                new Number(5));
         System.out.println("Equation: " + equation.toString());
         System.out.println("result: " + equation.evaluate());
         System.out.println("Equation: " + moEquation.toString());
