@@ -1,7 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Hello and welcome!");
+        ArithmeticExp equation = new Product(
+                new Number(3),
+                new Sum(
+                        new Number(2),
+                        new Number(5)
+                )
+        );
 
     }
 }
